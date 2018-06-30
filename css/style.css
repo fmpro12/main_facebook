@@ -83,20 +83,11 @@ ul {
 
 /* line 9, C:/Users/yank/post_facebook/scss/_header.scss */
 .search {
-  display: inline;
+  position: fixed;
   margin-left: 210px;
   margin-top: 7px;
   width: 393px;
   height: 23px;
-}
-
-/* line 16, C:/Users/yank/post_facebook/scss/_header.scss */
-.fa {
-  padding: 20px;
-  font-size: 30px;
-  width: 50px;
-  text-align: center;
-  text-decoration: none;
 }
 
 /* line 1, C:/Users/yank/post_facebook/scss/_divs.scss */
@@ -161,6 +152,48 @@ ul {
   width: 24px;
   margin-top: -27px;
   margin-left: 170px;
+}
+
+/* line 16, C:/Users/yank/post_facebook/scss/_icons.scss */
+.icons {
+  margin: inherit;
+  width: inherit;
+  height: inherit;
+  display: flex;
+}
+
+/* line 22, C:/Users/yank/post_facebook/scss/_icons.scss */
+.left_icons {
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: flex-start;
+  display: flex;
+  height: inherit;
+  width: 600px;
+}
+
+/* line 30, C:/Users/yank/post_facebook/scss/_icons.scss */
+.right_icons {
+  flex-direction: column;
+  align-items: flex-end;
+  display: flex;
+  height: inherit;
+  width: 630px;
+}
+
+/* line 37, C:/Users/yank/post_facebook/scss/_icons.scss */
+.fab {
+  margin-top: 6px;
+  margin-left: 170px;
+  font-size: 30px;
+  color: white;
+}
+
+/* line 43, C:/Users/yank/post_facebook/scss/_icons.scss */
+.fas {
+  margin-top: 6px;
+  font-size: 30px;
+  color: white;
 }
 
 /*# sourceMappingURL=../css/style.map */
