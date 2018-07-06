@@ -5,19 +5,20 @@ body {
 
 /* line 1, C:/Users/yank/post_facebook/scss/_post.scss */
 main {
-  margin: 0 auto;
-  width: 510px;
-  margin-left: -90px;
+  display: flex;
+  flex-direction: column;
+  margin: 47px 12px;
+  flex: 2;
 }
 
-/* line 7, C:/Users/yank/post_facebook/scss/_post.scss */
+/* line 8, C:/Users/yank/post_facebook/scss/_post.scss */
 main header {
   background: #badfad;
   padding: 10px;
   height: 140px;
 }
 
-/* line 13, C:/Users/yank/post_facebook/scss/_post.scss */
+/* line 14, C:/Users/yank/post_facebook/scss/_post.scss */
 main header textarea {
   display: block;
   margin-top: 10px;
@@ -27,7 +28,7 @@ main header textarea {
   font-size: 14px;
 }
 
-/* line 22, C:/Users/yank/post_facebook/scss/_post.scss */
+/* line 23, C:/Users/yank/post_facebook/scss/_post.scss */
 main header button {
   border: 0;
   padding: 5px 10px;
@@ -35,26 +36,26 @@ main header button {
   margin-top: 5px;
 }
 
-/* line 30, C:/Users/yank/post_facebook/scss/_post.scss */
+/* line 31, C:/Users/yank/post_facebook/scss/_post.scss */
 main article {
-  background: #cabdab;
+  background: #dabfab;
   padding: 10px;
-  margin-top: 55px;
+  margin-top: 5px;
   position: relative;
 }
 
-/* line 36, C:/Users/yank/post_facebook/scss/_post.scss */
+/* line 38, C:/Users/yank/post_facebook/scss/_post.scss */
 main article author {
   font-size: 13px;
 }
 
-/* line 40, C:/Users/yank/post_facebook/scss/_post.scss */
+/* line 42, C:/Users/yank/post_facebook/scss/_post.scss */
 main article p {
   font-size: 17px;
   white-space: pre;
 }
 
-/* line 45, C:/Users/yank/post_facebook/scss/_post.scss */
+/* line 47, C:/Users/yank/post_facebook/scss/_post.scss */
 main article button {
   border: 0;
   position: absolute;
@@ -66,9 +67,7 @@ main article button {
 ul {
   position: fixed;
   float: left;
-  width: 400px;
   font-size: 20px;
-  margin-left: -32vw;
 }
 
 /* line 1, C:/Users/yank/post_facebook/scss/_header.scss */
@@ -100,36 +99,33 @@ ul {
 
 /* line 7, C:/Users/yank/post_facebook/scss/_divs.scss */
 .left_main {
-  margin-left: 370px;
   margin-top: 55px;
   display: flex;
-  flex-flow: column wrap;
+  flex-flow: column;
+  flex: 1;
   height: 100vh;
-  width: 50vw;
-  align-items: center;
   justify-content: space-between;
-  flex-direction: column;
 }
 
-/* line 18, C:/Users/yank/post_facebook/scss/_divs.scss */
+/* line 15, C:/Users/yank/post_facebook/scss/_divs.scss */
 .right_main {
-  margin-top: 55px;
+  margin-top: 50px;
   display: flex;
   flex-flow: row wrap;
   height: 100vh;
-  width: calc(50vw - 370px);
+  flex: 1;
   justify-content: space-between;
-  align-items: flex-end;
+  align-items: flex-start;
 }
 
-/* line 27, C:/Users/yank/post_facebook/scss/_divs.scss */
+/* line 24, C:/Users/yank/post_facebook/scss/_divs.scss */
 .my_friends {
   height: 263px;
   width: 310px;
   background-color: white;
 }
 
-/* line 32, C:/Users/yank/post_facebook/scss/_divs.scss */
+/* line 29, C:/Users/yank/post_facebook/scss/_divs.scss */
 .my_page {
   margin-top: 30px;
   height: 417px;
