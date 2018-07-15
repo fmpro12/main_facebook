@@ -15,20 +15,49 @@
 .right_main {
     margin-top: 50px;
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: column;
     height: 100vh;
     flex: 1;    
     justify-content: space-between;
     align-items: flex-start;
-}
-.my_friends {
-    height: 263px;
-    width: 310px;
-    background-color: white;
+    
 }
 .my_page{
     margin-top: 30px;
-    height: 417px;
+    height: 517px;
     width: 310px;
     background-color: white;
+}
+.my_friends {
+    display: flex;    
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 350px;
+    width: 310px;
+    background-color: white;
+}
+
+.friends, .friends2, .friends3{
+    margin: 5px;
+    align-items: center;
+    box-sizing: border-box;
+    justify-content: space-evenly;
+    background-color: #f5f6f7;
+    border: 1px solid #dadde1;
+    border-radius: 50%;    
+    display: flex;
+    height: 70px;
+    justify-content: center;
+    position: relative;
+    width: 70px;
+}
+.friends_part{
+    flex-direction: row;
+    display:flex;
+    flex:1;
+}
+.comments{
+    display:flex;
+    flex:2;
+    flex-direction: row;
 }

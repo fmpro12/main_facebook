@@ -90,5 +90,3 @@ class Post {
 
 let mainEl = document.querySelector('main');
 new Feed(mainEl, 7);
-
-
